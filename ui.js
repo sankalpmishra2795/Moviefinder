@@ -12,8 +12,9 @@ class UI {
                 <img src="https://image.tmdb.org/t/p/w500${movie[i].poster_path}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5>movie:${movie[i].original_title}</h5>
-                    <p>Release Date:${movie.release_date}</p>
+                    <p>Release Date:${movie[i].release_date}</p>
                     <p>Language:${movie[i].original_language}</p>
+                     <p>Rating:${movie[i].vote_average}</p>
                 </div>
             </div>
          
